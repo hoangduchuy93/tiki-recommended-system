@@ -42,5 +42,29 @@ The file **ReviewRaw.csv** contained below columns:
 - rating: the number of star was rated in range (1 - 5)
 - title: title of the review
 - content: content of the review
+### 3. Build model
+- TFIDF to find the similarity between products then recommend to users.
+- Collaborative filtering to find similarity between users and recommend the products that they may be interested.
+- Applied model:
+  - Cosine similarity
+  - Gensim
+  - Spark ALS
+  - SVD
+### 4. User interface
+You can connect to the demo app (https://tiki-recommended-system.herokuapp.com/) for your experience. Below image show welcome screen:
+![image](https://user-images.githubusercontent.com/91864024/178523545-8f59e795-e3db-4d77-aeed-ce403d29cd67.png)
+**1. Content-based filtering**
 
+- By default, Content-based filtering is entered. You can either select one product from drop-box on the left, or type some words to describe one product (please type product name in Vietnamese, e.g: máy tính bảng, tai nghe bluetooth, ...)
+- Note: you can only select one product from drop-box or type one description for a product at the time.
+- Some photos for these options as following:
+![image](https://user-images.githubusercontent.com/91864024/178524873-e2558f39-9060-4452-8a5f-716107807f32.png)
+![image](https://user-images.githubusercontent.com/91864024/178524979-56ef73af-fed0-4a2e-80ba-d31ae1d74b39.png)
+**2. Collaborative filtering**
+When you select Collaborative filtering, you can choose customer_id to the drop-box on the left to track history invoice of user and products that he/ she may be interested in.
+![image](https://user-images.githubusercontent.com/91864024/178525748-9c27dbab-72fc-4a6f-94aa-dfdc1bbab72f.png)
+### 5. Conclusion
+- Model can recommend to user the products based on his behavior or other people interests.
+- However, new users or new products can not be updated to model in realtime. New data must be crawled periodically and re-build model to update changes.
 
+Thank you for your experience with my application. Hope you enjoy it!
