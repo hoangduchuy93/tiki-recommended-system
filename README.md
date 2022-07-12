@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/91864024/178474510-ae55a5d1-2039-41ab-a82f-1b48fcea9d4e.png)
 # Tiki Online Retail Recommendation System
 ## I. Outline
-- This Recommendation System is build based on a dataset crawled on Tiki Vietnam (https://tiki.vn).
+- This Recommendation System is built based on a dataset crawled on Tiki Vietnam (https://tiki.vn).
 - The demo app is implemented on Heroku, available for your experience:
 https://tiki-recommended-system.herokuapp.com/
 ## II. Business Objective/ Problem
@@ -61,7 +61,8 @@ You can connect to the demo app (https://tiki-recommended-system.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/91864024/178524873-e2558f39-9060-4452-8a5f-716107807f32.png)
 ![image](https://user-images.githubusercontent.com/91864024/178524979-56ef73af-fed0-4a2e-80ba-d31ae1d74b39.png)
 **2. Collaborative filtering**
-When you select Collaborative filtering, you can choose customer_id to the drop-box on the left to track history invoice of user and products that he/ she may be interested in.
+
+When you select Collaborative filtering, you can choose customer_id from the drop-box on the left to track history invoice of user and products that he/ she may be interested in.
 ![image](https://user-images.githubusercontent.com/91864024/178525748-9c27dbab-72fc-4a6f-94aa-dfdc1bbab72f.png)
 ### 5. Conclusion
 - Model can recommend to user the products based on his behavior or other people interests.
